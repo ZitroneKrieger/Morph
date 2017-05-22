@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Morph</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h3>Morph</h3>
+            
+        </div>
+
+        <div class="left">
+            <span onclick="openNav()">
+                <img src="threelines_white.png" id="menu_img"/>
+            </span>
+            <div id="mySidenav" class="sidenav">
+
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Tabels</a>
+                <a href="#" id="under">Own Tabels</a>
+                <a href="#" id="under">Other Tabels</a>
+                <br>
+                <a href="#">Invitations</a>
+                <a href="#">Rated Tabels</a>
+
+                <a href="#" class="bottom1">Loggout</a>
+                <a href="#" class="bottom">Go Pro</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <form action="#" id="login" class="login">
+                <h2>Login</h2>
+                Username:<br/>
+                <input type="text" placeholder="Enter Username" name="ben" id="ben" required><br/> 
+                Password:<br/>
+                <input type="password" placeholder="Enter Password" name="pas" id="pas" required><br/>
+                <input type="checkbox" checked="checked"> Remember me <br/>
+                Not Registered? 
+                <a href="#">Sign Up</a><br/>
+                <input type="button" value="Login">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
